@@ -1,0 +1,51 @@
+#general {
+  width: 1280px;
+  height: 593px;    
+  background-color: #F4F4F4;
+}
+#unidad {
+  padding: 10px 10px;  
+  width: 540px;
+  height: 593px;
+  background-color: #142440;  
+}
+#imagen {
+    float: right;
+  width: 720px;
+  height: 593px;
+}
+h1 {
+    margin-left: 20px;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: semibold;
+    color: #F4F4F4;
+}
+h3{
+    margin-left: 20px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: bold;
+    color: #F4F4F4;
+}
+p {
+    margin-left: 20px;
+    margin-right: 60px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: regular;
+    color: #F4F4F4;
+}
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.roboto-uniquifier {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}

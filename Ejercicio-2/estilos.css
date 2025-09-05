@@ -1,0 +1,79 @@
+#general {
+  width: 1440px;
+  height: 528px;
+  background-color: #FFFFFF;
+}
+#salud {
+  padding: 10px 10px;   
+  float: right;  
+  width: 367px;
+  height: 160px;
+  background-color: #F4F4F4;      
+}
+#actividades {
+  padding: 10px 10px;  
+  margin-top: 25px;  
+  float: right;  
+  width: 367px;
+  height: 192px;
+  background-color: #F4F4F4;    
+}
+#dirección {
+  padding: 10px 10px;  
+  float: left;  
+  width: 450px;
+  height: 311px;
+}
+#deportes {
+  padding: 10px 10px;  
+  float: left;  
+  width: 367px;
+  height: 160px;
+  background-color: #F4F4F4; 
+  margin-left: 15px;
+}
+#bienestar {
+  padding: 10px 10px;  
+  margin-top: 25px;  
+  float: left;  
+  width: 367px;
+  height: 160px;
+  background-color: #F4F4F4;  
+  margin-left: 15px;
+}
+h1 {
+    margin-left: 20px;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: semibold;
+}
+h2{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: semibold;
+}
+h4 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: regular;    
+}
+p {
+    margin-left: 20px;
+    margin-right: 60px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: regular;
+}
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.roboto-uniquifier {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
