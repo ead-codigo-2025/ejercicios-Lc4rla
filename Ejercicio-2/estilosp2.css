@@ -1,18 +1,30 @@
 #general {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
   width: 1280px;
   height: 593px;    
   background-color: #F4F4F4;
 }
 #unidad {
-  padding: 10px 10px;  
-  width: 540px;
-  height: 593px;
+  padding: 10px 30px;  
+  width: 510px;
+  height: 583px;
   background-color: #142440;  
+}
+#box {
+  margin-left: 25px;
+  margin-top: 30px;     
+  width: 169px;
+  height: 24px;
+  background-color: #EF9618;      
 }
 #imagen {
     float: right;
-  width: 720px;
-  height: 593px;
+}
+img {
+  width: 740px;
+  height: 603px;
 }
 h1 {
     margin-left: 20px;
@@ -27,6 +39,13 @@ h3{
     font-size: 18px;
     font-weight: bold;
     color: #F4F4F4;
+    margin-top: 45px;
+}
+h4 {
+  margin-left: 20px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: regular;  
 }
 p {
     margin-left: 20px;
@@ -35,6 +54,10 @@ p {
     font-size: 16px;
     font-weight: regular;
     color: #F4F4F4;
+    width: 444px;
+    height: 192px;
+    margin-top: 50px;
+    line-height: 24px;
 }
 .poppins-semibold {
   font-family: "Poppins", sans-serif;
