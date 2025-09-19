@@ -9,16 +9,19 @@ h1 {
 color: #911247;
 font-size: 30pt;
 font-family: Lora;
+text-align: center;
 }
 h2 {
 color: #E31C6F;  
 font-size: 22pt;
 font-family: Lora;
+text-align: center;
 }
 h3{
 color: #E84589; 
 font-size: 16pt;
 font-family: Lora;
+text-align: center;
 }
 p {
 color: #17030B; 
