@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <link rel="stylesheet" href="estilos.css"> 
+    <title>Periplo Constructor</title>  
+    </head>
+    <body>
+         <div class="content">
+        <div class="menu container">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="observacion-pc.html"><p>Acciones y actos humanos</p></a></li>
+                    <li><a href="caso-de-estudio-pc.html"><p>Juego de mesa: Dixit ODYSSEY</p></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    Periplo Constructor
+
+Taller: Taller de Diseño de Interacción
+
+Profesor: Herbert Spencer
+
+Ayudante: Javiera Ruiz
+
+Año: 2024
+
+
+Proyecto Ciclo 3: Juego de mesa
+
+Entrega Lunes 11 de Junio:
+A través de las observaciones tomadas por los integrantes del grupo, las diferentes propuestas deben converger en mecánicas las cuales se puedan utilizar en un juego de mesa.
+
+Se pueden observar distintos niveles de despliegue del cuerpo a través de las acciones cotidianas de las personas, como extienden y contraen el cuerpo en pos de generar momentos, produciendo un grafo radial que genera perspectivas; como si el juego tuviera un máximo y un mínimo que acontecen al hacer un tipo de movimiento, un momento de pausa y un momento de dinamismo que produce la gracia de la situación que lo envuelve.
+
+Las actividades de lanzar rocas y hacerlas rebotar en el agua, atinar a botellas con rocas o encestar algún desperdicio, nos muestra cuan capaces somos los humanos para encontrar diversión en momentos cotidianos o simples. Gracias a esto podemos destacar la gran capacidad de apaciguar momentos de aburrimiento o de mejorar ambientes poco divertidos, como puede ser una oficina de trabajo, en donde los trabajadores a través del simple juego de encestar un papel, podrán hacer mas ameno el trabajo, fomentando el compañerismo y la sana competencia.
+
+Se observa que la concentración y estar estático en cierta actividad o acción, se pueden concertar y relacionar con el dinamismo ya que siempre una es dependiente de la otra para lograr un buen resultado de acción. Se complementan y junto a la gestualidad de cada individuo demuestran la gran variedad de desarrollo de acciones.
+
+En los casos de estudio observamos distintos juegos de mesa en los cuales el elemento de las cartas está presente en cada uno de ellos; las cartas se comparan como en el Dixit, se contrastan como en el Mysterium, se alinean entre sí alrededor del "tablero" que las propias forman como sucede con el Connect 4, de ahí se produjo el elemento esencial que queremos desarrollar y fueran el punto central de nuestro juego de mesa.
+
+A través de la observación de los diferentes niveles de despliegue del cuerpo y el dinamismo de las acciones, pensamos en un juego el cual no necesitara un tablero fijo, sino que este se fuera construyendo a través de cartas que el propio jugador iba disponiendo, creando múltiples opciones de despliegue del espacio que abarcaba el juego en la superficie; ofreciendo dinamismo en las diferentes maneras de jugarlo.
+
+Contenido:
+1 dado de seis caras
+1 carta de partida
+30 cartas de beneficio
+30 cartas de penitencia
+60 cartas de camino (15 por jugador)
+4 fichas (1 por jugador)
+
+Tipos de Carta:
+Las cartas son de 7x7 cm.
+
+Cartas de camino recto (de 3 y 5 casillas)
+Cartas de camino curvo (de 3 y 6 casillas)
+
+Reglas:
+Se puede jugar de 4-2 jugadores; en la mesa/superficie lo primero que se dispone es la carta de partida y encima irán las fichas que representen a cada jugador, a los cuales se les entrega 15 cartas. Alrededor habrán 2 mazos de cartas: de penitencia y beneficio.
+
+
+Turnos
+El jugador que saque el número más grande empieza. La ficha irá moviéndose por el camino construido con ayuda del dado, si cae en una casilla azul el jugador deberá robar del mazo de cartas de beneficio; si cae en una casilla púrpura, deberá robar del mazo de las cartas de penitencia. Las de beneficio permitirán al jugador adelantarse casillas, sacarse una carta de encima o cambiar una carta de su camino por una de otro jugador; las cartas de penitencia lo harán retroceder casillas, tener que tomar más cartas o bloquearán el camino, no permitiendo avanzar la ficha.
+
+
+Objetivo
+El jugador debe encontrar la manera más rápida de completar su camino y llevar a su ficha al final del mismo, y para esto se debe quedar de una u otra manera sin cartas.
+
+
+Fin del juego
+El jugador que sea el primero que se quede sin cartas en la mano ha completado su camino, por lo tanto es quién gana.
+
+CORRECCIÓN:
+Si las fichas fueran diferentes personajes, ¿Cómo estos interaccionas con las cartas? ¿Hay una diferencia en como estos se desplazan por las casillas?
+Debe haber un punto de meta, que se pueda llegar al mismo a través de una carta clave (propio de la temática del personaje), ¿Esta cómo se obtendría?
+Es necesario que los caminos converjan, podrían haber caminos comunes (cartas neutras), también podrían haber puntos de desplazamiento, que transporten al personaje de un punto a otro del camino.
+Implementación de puntaje.
+
+
+Entrega Viernes 14 de Junio
+
+A partir del análisis de juegos similares en la aplicación de la mecánica de la construcción de caminos como Saboteur o Bandido, se hicieron ciertas modificaciones a las reglas y mecánicas al juego.
+
+En vez de hacer una meta se pensó en la inclusión de objetos claves, que según su obtención, el jugador estaría más cerca de poder ganar.
+
+Contenido:
+1 dado de seis caras
+80 cartas (10 por jugador)
+4 figuras (1 por jugador)
+12 objetos clave (3 por jugador)
+
+Características:
+En las cartas los caminos ahora se pueden cruzar.
+
+En los mazos que se pasan a los jugadores se mezclan los diferentes temas de cada personaje y así los caminos son aleatorios. El personaje se mueve mejor por cartas que son de su temática, y por lo tanto tiene mayor dificultad de desplazarse en cartas de otros personajes.
+
+En cada mazo hay 2 cartas que tienen siluetas de algunos de los objetos claves de otros personajes; son 3 objetos clave por personaje. Debido a esto el jugador puede desplazar el objeto clave de una carta a otra, si es que el personaje correspondiente a el mismo esta a pocas casillas de conseguirlo.
+
+
+PERSONAJES:
+
+Gato (Cartas y Objeto clave: ratones)
+Conejo (Cartas y Objeto clave: zanahorias)
+Pingüino (Cartas y Objeto clave: peces)
+Mariposa (Cartas y Objeto clave: flores)
+
+Tipos de cartas:
+Se cambió el tamaño a 8x8 cm.
+
+CARTAS DE CAMINOS:
+Cartas de camino recto (3 casillas)
+Cartas de camino curvo (2 y 3 casillas)
+Cartas de caminos convergentes (3 casillas dependiendo de la dirección tomada)
+
+CARTAS DE BENEFICIOS:
+¡Felicitaciones! Llevarás la delantera, avanza 4 espacios.
+Puedes quitar una carta de tu camino.
+Tienes la oportunidad de intercambiar una carta con uno de tus compañeros.
+¡Qué suerte! Puedes avanzar 2 espacios.
+
+CARTAS DE PENITENCIAS:
+¡Cuidado! Un depredador se encuentra más adelante, retrocede 3 espacios.
+¡Oh no! Debes agregar 2 cartas a tu camino.
+Tu turno estará bloqueado en la siguiente ronda.
+¡Mala suerte! Todos pueden avanzar 2 espacios y tú debes retroceder uno.
+
+Reglas:
+Se puede jugar de 4-2 jugadores; en la mesa/superficie lo primero que se dispone es la carta de partida, encima irán las figuras que representen a cada jugador, y las cartas de objetos claves (calculando el espacio de cartas de distancia). Alrededor habrán 3 mazos de cartas: de penitencia, beneficio y de cartas de camino.
+
+
+Turnos
+El jugador que saque el número más grande empieza, deberá ir armando el camino con las cartas que tiene en la mano, después deberá ir moviéndose con el dado por el mismo; si cae en una casilla azul el jugador deberá robar del mazo de cartas de beneficio; si cae en una casilla roja, deberá robar del mazo de las cartas de penitencia; los efectos de las cartas en su mayoría permanecen iguales. En caso de que el jugador deba seguir avanzando deberá robar del mazo de cartas de camino otras 5 cartas.
+
+
+Objetivo
+El jugador deberá construir un camino dirigiéndose a las cartas claves que corresponda a su objeto, debiendo reunir 3 tipos del mismo; por ejemplo, si el jugador tomó al personaje del Conejo, deberá buscar cartas las cuales tenga la silueta de una zanahoria, su objeto clave, debiendo reunir 3 de estas, siendo una blanca, una plateada y una dorada.
+
+
+Fin del juego
+El jugador que sea el primero en conseguir sus tres objetos será el ganador.
+
+CORRECCIÓN:
+Ajustar temas para que sean equivalentes entre si, las ventajas y desventajas que puedan ocasionar entre los personajes del juego.
+Cuidar el número de cartas que hay que producir, cuales son las combinatorias posibles que hay que tener, sin repetir similares.
+Replantear sentido de meta/victoria, ¿Qué hace el jugador después de obtener los 3 objetos claves? El fin del juego es demasiado abrupto aún.
+Hacer una representación esquemática del juego (similar a las partituras de interacción), ¿Cuáles son las posibles opciones que pueden tomar los jugadores dentro de una partida? También se podría hacer una representación visual.
+
+
+Entrega Martes 18 de Junio
+A partir de las correcciones dadas de la clase anterior pesamos modificar y simplificar el rol de los personajes jugables para generar un mayor balance en el juego; habiendo dos personajes hábiles en tierra (gato y conejo) y dos personajes hábiles en agua (foca y pingüino), siendo estos más lentos en los caminos que no dominan.
+
+Se ajustó el número de cartas para que no haya símiles, también se agregaron un tipo de carta que son las cartas de meta, las cuales solo se podrán utilizar una vez se obtengan los 3 objetos claves necesarios.
+
+Contenido:
+1 dado
+60 cartas de camino temático [incluidas las cartas con objetos clave]
+20 cartas de camino normal
+60 cartas de beneficio
+60 cartas de penitencia
+1 carta de partida
+4 cartas de meta
+4 figuritas (gato, conejo, pingüino[rojo], foca[naranjo])
+12 objetos claves (ratones, zanahorias, peces flacos, peces gordos)
+Características
+Personajes :
+
+Gato (Cartas y Objeto clave: ratones)
+Conejo (Cartas y Objeto clave: zanahorias)
+Pingüino (Cartas y Objeto clave: peces flacos)
+Foca (Cartas y Objeto clave: peces gordos)
+
+Tipos de Cartas
+CARTAS DE CAMINOS:
+Cartas de camino recto (3 casillas)
+Cartas de camino curvo (4 y 3 casillas)
+Cartas de caminos convergentes (3 casillas dependiendo de la dirección tomada)
+
+CARTAS DE BENEFICIOS:
+1. Avanza 2 casillas.
+2. Bloquea el siguiente turno de un jugador de tu elección.
+3. Escoge un jugador para que saque una carta de penitencia.
+4. Escoge un jugador para que retroceda 1 casilla.
+5. Avanza hasta la próxima casilla de beneficio.
+6. Puedes quitarle una carta de beneficio a un jugador.
+7. Avanza 3 casillas.
+8. Puedes moverte hacia adelante o hacia atrás en tu siguiente turno.
+9. Puedes sacar 2 cartas de beneficios.
+10. Intercambia una carta beneficio con otro jugador.
+11. Avanza 4 casillas.
+12. Puedes avanzar una casilla extra en tu próximo turno.
+13. Al caer en una próxima casilla de penitencia puedes cambiarla por un beneficio.
+14. Avanza hasta la próxima casilla neutra.
+15. Escoge 2 jugadores para que saquen una penitencia cada uno.
+16. Puedes avanzar hasta 5 casillas.
+17. Puedes quitar una carta de beneficio a 2 jugadores.
+18. Puedes avanzar 3 casillas adicionales en tu próximo turno.
+19. Escoge una carta beneficio o penitencia de otro jugador y entrégasela a otro jugador.
+20. Avanza 6 casillas.
+21. Puedes avanzar hasta la próxima casilla de tu animal.
+22. Escoge una carta de beneficio y una de penitencia de otro jugador.
+23. Avanza hasta la próxima casilla de penitencia pero te libras de la penitencia.
+24. Intercambia una carta de penitencia con una de beneficio de otro jugador.
+25. Avanza hasta la casilla de beneficio más cercana.
+26. Puedes obtener un objeto clave de tu animal.
+27. Avanza hasta la siguiente casilla de tu elección.
+28. Puedes avanzar hasta 4 casillas adicionales.
+29. Puedes obtener un objeto clave de tu animal y si otro jugador tiene uno de su animal, devolver este al tablero.
+30. Avanza 5 casillas y escoge una carta de beneficio de otro jugador.
+
+CARTAS DE PENITENCIAS:
+1. Retrocede 3 casillas.
+2. Pierdes un turno en la siguiente ronda.
+3. Intercambia tu posición con la del jugador a tu derecha.
+4. Pierdes todas las cartas beneficio que tengas de aquí en adelante.
+5. Regresa a la casilla de partida.
+6. Regala una carta de beneficio a otro jugador.
+7. Retrocede a la primera casilla de tu recorrido.
+8. Pierdes los dos siguientes turnos.
+9. Retrocede 5 casillas.
+10. Bloquea el siguiente turno de un jugador de tu elección.
+11. Intercambia todas tus cartas con las de otro jugador.
+12. Pierdes una carta de beneficio.
+13. Retrocede hasta la última casilla de beneficio que hayas pasado, pero sin sacar un beneficio.
+14. Retrocede 4 casillas.
+15. Cambia de posición con el jugador que esté en último lugar.
+16. Retira de tu camino la carta con más casillas de beneficios.
+17. Por cada vez que caigas en una casilla de penitencia, retrocede 2 casillas.
+18. Si tienes un objeto clave, devuélvela al tablero.
+19. Retrocede a la casilla de penitencia anterior a esta, y saca una nueva penitencia.
+20. Intercambia una carta de beneficio con una de penitencia de otro jugador.
+21. Pierdes tres turnos.
+22. Retrocede hasta caer en una casilla correspondiente al mazo del pingüino, de no tener cartas de este animal, vuelves a la partida.
+23. A la siguiente casilla de beneficio que caigas, pierdes el beneficio.
+24. Retrocede hasta la última casilla neutra que hayas pasado.
+25. Retrocede hasta caer en una casilla correspondiente al mazo del gato, de no tener cartas de este animal, vuelves a la partida.
+26. Cambia tu personaje con el de otro jugador por una ronda.
+27. Retrocede hasta caer en una casilla correspondiente al mazo del conejo, de no tener cartas de este animal, vuelves a la partida.
+28. Retrocede 6 casillas.
+29. Intercambia una carta de penitencia con otro jugador.
+30. Retrocede hasta caer en una casilla correspondiente al mazo de la foca, de no tener cartas de este animal, vuelves a la partida.
+
+Reglas:
+Se juega de 2-4 jugadores, se mezcla el mazo y se reparten las cartas, 15 para cada jugador (a la mano, se pueden rotar como quiera). En la superficie se dispone la carta de partida, sobre ella estarán las piezas de los jugadores; cada uno guardará la carta de meta para el final. Alrededor estarán tres mazos; los de penitencia, beneficio, y los de cartas de camino.
+
+
+Turnos
+Empieza el que obtenga el número más grande con el dado. El jugador tira el dado 1 vez y avanza, si cae en una casilla de penitencia, deberá sacar una carta de penitencia del mazo correspondiente; si cae en una casilla de beneficio, sacará una carta del mazo de beneficio.
+
+Armar el tablero: cada jugador debe hacer su camino utilizando las cartas de su mazo (plantear un camino pensando que luego debe converger con el de los otros jugadores).
+
+
+Objetivo
+Los jugadores deberán avanzar por el camino en busca de los objetos claves de sus personajes correspondientes (siendo 3); después de reunirlos deberán volver a su propio camino con el objetivo de finalizarlo y llegar a la carta de meta, sobre la cual deberán ir los tres objetos claves junto al personaje.
+
+
+Fin del juego
+Gana el jugador que sea el primero en llegar a la meta de su camino con los 3 objetos claves.
+
+
+
+CORRECCIÓN
+Hacer tanto la carta de inicio como las cartas de meta mucho más llamativas.
+Se ha decidido descartar las cartas especiales para objetos claves; los jugadores decidirán donde ponen estos independientemente de la carta, no se podrán mover de sitio a no ser que el jugador lo pierda, en ese caso se deberá volver a poner en el tablero en una posición distinta.
+Quizás hacer fichas 3D (lo suficientemente grandes para cubrir cualquier casilla), para marcar donde se pondría el objeto clave, eso aportaría dinamismo al juego.
+Regularizar la estética de los elementos de las cartas (que parezca cada dibujo de la misma mano).
+Entrega Viernes 21 de Junio
+Para regularizar la estética de las cartas hemos decidido que una persona sea quien haga todo los dibujos (véase casillas, fondo, contraportada de las cartas), para que tengan consistencia al ser producidos por la misma mano.
+
+Lo anterior hace que haya cambios claros en el nuevo diseño de las cartas, más las cartas de meta y la de partida, las cuales se verán más atractivas visualmente.
+
+Se descartan completamente las cartas especiales para objetos claves, esto de paso, disminuye el número de cartas de camino a producir en su total.
+
+Los elementos cambiados son que las casillas del Pingüino ahora son camarones, para que no sea tan similar a las cartas Foca; se utilizará la idea del personaje de la Abeja ahora como la parte de atrás de las cartas Beneficio.
+
+
+Contenido (FINAL):
+1 dado
+100 cartas de camino
+60 cartas de beneficio
+60 cartas de penitencia
+1 carta de partida
+4 cartas de meta
+4 figuritas (gato, conejo, pingüino, foca)
+12 objetos claves (ratones, zanahorias, camarones, peces)
+
+Características Personajes:
+
+Gato (Terrestre/3 ratones)
+Conejo (Terrestre/3 zanahorias)
+Pingüino (Marino/3 peces)
+Foca (Marino/3 camarones)
+
+Tipos de Cartas
+CARTAS DE CAMINOS:
+No presenta modificaciones en el número de casillas. Existen 2 tipos, las cartas de terrestres que utilizan los personajes del Conejo y el Gato; y las cartas marinas, utilizadas por el Pingüino y la Foca. Los dibujos de las mismas se rehicieron para que el estilo y las posiciones fueran consistentes entre sí.
+
+Cartas Marinas: Pingüino y Foca
+Cartas Terrestres: Conejo y Gato
+
+CARTAS DE BENEFICIO:
+Se eligió que en su parte de atrás se representara con una abeja el beneficio de la carta, para seguir el tema de los animales que estábamos desarrollando.
+
+CARTAS DE PENITENCIA:
+Se eligió que en su parte de atrás se representara con un murciélago la penitencia de la carta, para seguir el tema de los animales.
+
+
+REGLAS
+Se juega de 2 a 4 jugadores; en la superficie se dispone la carta de partida, sobre ella estarán las piezas de los jugadores; habrá tres mazos dispuestos, el mazo de cartas de caminos, el mazo de cartas beneficio y el mazo de cartas penitencia. Se revuelve el mazo de cartas camino y se reparten 10 para cada jugador.
+
+
+Objetivo
+Armar el tablero: cada jugador debe hacer su camino utilizando las cartas de su mano, estas se pueden posicionar de la manera que el jugador quiera. Hay que plantear un camino pensando que luego debe converger con el de los otros jugadores, al final de este deberán poner la carta de meta. Una vez esté construido el “tablero“ los jugadores deberán posicionar los objetos claves.
+
+
+Turnos
+Empieza el que obtenga el número más grande con el dado. El jugador tira el dado una vez y avanza, si cae en una casilla de penitencia, deberá sacar una carta de penitencia del mazo de penitencia; si cae en una casilla de beneficio, sacará una carta del mazo de beneficio.
+
+Algunas de estas cartas se pueden guardar, no utilizarlas inmediatamente; por ejemplo, las cartas que te piden hacer un intercambio con otro jugador; si aún no se cumplen las condiciones para este intercambio, la carta se guarda hasta que se pueda utilizar.
+
+Los jugadores terminan su turno tomando una carta de camino del mazo correspondiente, con el fin de conectar más su camino con el de los demás jugadores. En caso de que todos los caminos ya estén conectados robar del mazo se vuelve opcional.
+
+El jugador deberá avanzar por el camino en busca de los objetos claves de su personaje (siendo 3); después de reunirlos tendrá que volver a su propio camino con el objetivo de llegar a la carta de meta, sobre la cual deberá poner los tres objetos claves junto al personaje.
+
+
+Fin del juego
+Gana el jugador que sea el primero en llegar a la meta de su camino con los 3 objetos claves.
+
+Corrección
+Las cartas poseen muchos colores, así que se debe simplificar la paleta con la que trabajamos el juego.
+Hay que cambiar los dibujos de las cartas de beneficio y penitencia, debido a que no presentan una razón o historia del porque se decidieron esos elementos.
+Faltan categorías e iconos de los personajes en el manual del juego, además de una historia que le dé contexto al juego, el por qué del acontecer.
+Entrega Martes 25 de Junio
+Se decidió que en las cartas de camino se cambiaran los colores de los fondos para neutralizar la paleta, y solo se dejó los colores originales en las cartas meta y la carta partida para que fueran más llamativas; ya que representan el inicio y el final de una partida del juego.
+
+Se simplificaron las iconos de las cartas casillas, en este caso las cartas beneficio ahora son representadas por un signo "+" y las cartas penitencia ahora son representadas por un signo "-". Utilizando la simbología básica de positivo y negativo; haciendo referencia de los efectos que pueden producir las cartas en una partida.
+
+Se le hizo un rediseño al logo para que vaya más acorde a la temática de los animales.
+
+Se incluyeron los dibujos de los personajes jugables a la caja y al manual.
+
+También se cambió el formato del manual, se le agregaron elementos y especificaciones para hacerlo más detallado y no dejarles dudas a los jugadores.
+
+Personajes
+GATO
+CONEJO
+PINGÜINO
+FOCA
+
+
+Tipos de Cartas
+CARTAS DE CAMINOS:
+De las cartas camino hay 50 cartas neutras y 50 cartas con casillas de penitencia y beneficio; el número de casillas no se altera, solo el tamaño de estas a comparación de la entrega anterior.
+
+
+Cartas de inicio:
+Punto inicial con 4 salidas para construir los caminos, lo ideal sería que se ubicara al centro de la mesa o superficie donde se juegue.
+
+
+Cartas de meta:
+Solo se puede acceder a ellas una vez recolectados los 3 objetos claves; aún así, permanecen presentes durante toda la partida desde el inicio.
+
+
+CARTAS DE BENEFICIOS:
+Hay 30 tipos de efectos que producen las cartas de beneficio, se repiten 2 veces un tipo, siendo en total 60 cartas.
+
+
+CARTAS DE PENITENCIAS:
+Hay 30 tipos de efectos que producen las cartas de penitencia, se repiten 2 veces un tipo, siendo en total 60 cartas.
+
+
+REGLAS (FINAL)
+Preparación
+1. Disponer los 3 mazos; el de beneficios, penitencias y de caminos.
+
+
+2. Barajar el mazo de caminos y repartir 10 para cada jugador, dejar las restantes en la mesa.
+
+
+3. Escoger tu personaje.
+
+
+4. ¡Comenzar a armar tu camino!
+
+
+Turnos
+1. ¡COMIENZA EL JUEGO! Escoges tu peón, el lugar dónde quieras empezar y se te asignan 10 cartas, a lo largo del juego si necesitas más, podrás ir sacando. Se lanza el dado, el número más alto comienza y desde ahí continúa el jugador de su derecha.
+
+
+2. JUEGA TUS CARTAS Desde tu partida, comienza a crear tu camino, ubicando estas 3 cartas pensando en tu recorrido. A lo largo del juego, por cada turno debes ir agregando una carta a tu camino o al de los demás. Piensa estratégicamente... si quieres más cartas puedes sacar. Cuando cada jugador haya usado 7 cartas de su mazo, es decir, le queden 3 cartas en su mano, llega el momento en que los otros jugadores posicionen tus figuras de recolección en el tablero, dónde ellos quieran... ¡aquí comienza la entretención! comienzas a lanzar el dado y a moverte al rededor del tablero, recolectando tus objetos.
+
+
+3. ¡MÁS CERCA DE LA META! Finalmente cuando ya hayas usado tus 10 cartas del mazo, es momento de posicionar en el tablero tu carta de meta, al final de tu recorrido. Es importante mencionar que esta carta no puede ser movida una vez puesta en su lugar.
+
+
+Fin del juego
+Al momento que hayas recolectado tus 3 objetos claves y los hayas llevado a tu punto de término ¡haz ganado!
+
+
+CONCLUSIÓN
+Podemos concluir que el proyecto de desarrollar un juego de mesa es complejo, debido al constante pulimiento que hay que hacer en varios aspectos, como los elementos, personajes, temáticas; y dar un especial énfasis hacia las reglas, como estas se constituyen es primordial para el desenvolvimiento de un juego, y que este sea dinámico, fluido y por sobre todo, divertido. Pensamos que el resultado final de nuestro juego ha sido bueno, nos esforzamos para que las reglas al ojo del jugador fueran simples y comprensibles a la primera lectura. Las pruebas de usuario nos demostraron que realmente el juego es disfrutable para aquellos que lo prueban y eso fue sumamente gratificante a pesar de los problemas que hubo en el desarrollo; claro que se pueden hacer mejoras en varios aspectos visuales y hasta mecánicos relacionados a la jugabilidad, pero aún así sentimos que pudimos dar un buen producto con el que los usuarios pueden pasar un momento de ocio y disfrute.
+
+    </body>    
+</html>  
