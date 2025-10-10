@@ -68,10 +68,20 @@
     color: #5F2083;
     font-size: 22pt;
 }
+.titulo-primero {
+    font-family: Montserrat;
+    color: #5F2083;
+    font-size: 18pt;
+}
 .titulo-segundo {
     font-family: Montserrat;
     color: #44175E;
     font-size: 15pt;
+}
+.titulo-tercero {
+    font-family: Montserrat;
+    color: #44175E;
+    font-size: 13pt;
 }
 .texto-inicio{
     font-family: Lato;
